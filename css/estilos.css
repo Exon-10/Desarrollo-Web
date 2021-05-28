@@ -110,6 +110,8 @@ img{
 /*--------------------------------------------------------------*/
 .section_depart{
     margin: 0 auto;
+    flex-shrink: 0;
+    flex-wrap: wrap;
 }
 .contenedor_depart{
     background-color: rgb(233, 233, 233);
@@ -123,6 +125,7 @@ img{
 .article_depart{
     width: 20vw;
     box-shadow: 0.3vw 0.3vw 0.5vw rgba(0, 0, 0, 0.46);
+    margin-bottom: 2vw;
 }
 .section_depart h2{
     margin: 2rem 2rem 0rem 2rem;
@@ -162,6 +165,7 @@ img{
     text-align: center;
     margin-bottom: 3rem;
     font-size: 2.5rem;
+    margin-top: 2vw;
 }
 .btn_verde{
     background-color: rgb(36, 143, 1);
