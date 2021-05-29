@@ -3,7 +3,6 @@ html{
 }
 *{
     border: 0;
-    margin: 0;
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
@@ -33,6 +32,7 @@ img{
 .section{
     width: 70vw;
     max-width: 70vw;
+    margin: 0 auto;
 }
 /*---------------------Header------------------------*/
 .menu_header{
@@ -286,4 +286,57 @@ main h1{
     font-family: 'fuente2';
     padding-top: 1vh;
     line-height: 2vw;
+}
+/*---------------------------------contacto-----------------------------*/
+.section_form{
+    flex-direction: column;
+    align-items: center;
+}
+.section_form fieldset{
+    border: solid 0.1vw rgb(201, 201, 201);
+    padding: 2vw;
+}
+.section_form legend{
+    padding: 1vw;
+    font-size: 1vw;
+    color: rgb(199, 199, 199);
+}
+.f_personal{
+    flex-direction: column;
+    width: 30vw;
+}
+.f_propiedad{
+    flex-direction: column;
+}
+.section_form input{
+    padding: 0.5vw;
+    margin-top: 0.3vw;
+    border-radius: 0.2vw;
+    outline: none;
+    border: 0.01vw solid rgb(211, 211, 211);
+    font-family: 'fuente2';
+}
+.section_form h2{
+    font-size: 1.3vw;
+    margin-top: 1vw;
+}
+.section_form label{
+    color: rgb(155, 155, 155);
+}
+.section_form select, textarea{
+    border: 0.01vw solid rgb(211, 211, 211);
+    outline: none;
+}
+.section_form textarea{
+    height: 10vh;
+    padding: 0.3vw;
+}
+.btn_form{
+    color: white;
+    background-color: rgb(8, 163, 0);
+    width: 6vw;
+    font-size: 0.9vw;
+}
+.option{
+    color: rgb(155, 155, 155);
 }
