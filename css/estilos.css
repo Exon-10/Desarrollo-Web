@@ -12,14 +12,14 @@ img{
 }
 @font-face { 
     font-family: "fuente";
-    src: url("/fonts/Kanit/Kanit.ttf");
+    src: url("../fonts/Kanit/Kanit.ttf");
 }
 :root{
     --fuente:'fuente';
 }
 @font-face {
     font-family: "fuente2";
-    src: url("/fonts/Kanit/Kanit_light.ttf");
+    src: url("../fonts/Kanit/Kanit_light.ttf");
 }
 
 .dis_flex_b{
@@ -42,7 +42,7 @@ img{
     height: 15vh;
 }
 .head_inicio{
-    background-image: url(/img/header.jpg);
+    background-image: url(../img/header.jpg);
     height: 100vh;
     min-height: 50vh;
     background-position: center center;
@@ -194,7 +194,7 @@ img{
     background-color: rgb(172, 138, 0);
 }
 .section_inter{
-    background-image: url(/img/encuentra.jpg);
+    background-image: url(../img/encuentra.jpg);
     background-size: cover;
     background-position: center center;
     margin: 1rem auto;
