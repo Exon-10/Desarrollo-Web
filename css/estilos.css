@@ -107,6 +107,12 @@ img{
     width: 7vmax;
     max-width: 7vmax;
 }
+@media (max-width:480px){
+    .section_n{
+        display: grid;
+        grid-template-columns:1fr;
+    }
+}
 /*--------------------------------------------------------------*/
 .section_depart{
     margin: 0 auto;
