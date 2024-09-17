@@ -5,42 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/mediaq.css">
+    <link rel="stylesheet" href="icomoon/style.css">
     <title>Bienes Raices</title>
 </head>
 <body>
 <!-------------------------------------Header----------------------------------------->
 
-    <header class="head_inicio inicio color_white">
+    <header class="head_background">
 
-            <div class="contenedor_head dis_flex_b section">
-                <div class="contenedor_nav dis_flex_b">
+            <a href="#menu" class="abrir"><span class="icon-menu"></span></a>
+            <a href="index.html" class="cont_logo"><img src="img/logo.svg"></a>
 
-                        <a href="index.html">
-                            <img src="img/logo.svg" alt="">
-                        </a>
-                        <div class="contenedor_menu dis_flex_b">
-                                <a href="html/nosotros.html">Nosotros</a>
-                                <a href="html/Anuncios.html">Anuncios</a>
-                                <a href="html/blog.html">Blog</a>
-                                <a href="html/contacto.html">Contacto</a>  
-                        </div>
-                </div>
+        <div id="menu" class="contenedor">
+
+            <div class="header">
+                <span class="text-menu">Menu</span>
+                <a href="#" class="cerrar"><span class="icon-cross"></span></a>
+            </div>
+
+            <div class="div_nav">
+                <a href="html/nosotros.html"><span class="icon-briefcase icono_nav"></span>Nosotros</a>
+                <a href="html/Anuncios.html"><span class="icon-rocket icono_nav"></span> Anuncios</a>
+                <a href="html/blog.html"><span  class="icon-earth icono_nav"></span> Blog</a>
+                <a href="html/contacto.html"><span  class="icon-envelop icono_nav"></span> Contacto</a>  
+                
+        </div>
+
+            </div>
                 <p class="text_head">Venta de Casas y Departamentos<br>Exclusivos de Lujo</p>
             </div>
 
+
+        </div>
+
     </header>
 
+       
 <!-------------------------------------Section Nosotros-------------------------------------------->
 
-    <div class="title_n">
-
-        <h2>Mas Sobre Nósotros</h2>
-
-    </div>
-
-        <section class="section_n dis_flex_b section">
-                <article class="article_n dis_flex_b">
+        <section class="section">
+            <div class="div_n">
+                <h2 class="h2_n">Mas Sobre Nósotros</h2>
+                <article class="article_n">
                     <img src="img/icono1.svg" class="icono_n">
                     <h2>SEGURIDAD</h2>
                     <P> Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
@@ -50,7 +57,7 @@
                     </P>
                 </article>
 
-                <article class="article_n dis_flex_b">
+                <article class="article_n">
                     <img src="img/icono2.svg" class="icono_n">
                     <h2>EL MEJOR PRECIO</h2>
                     <P> Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
@@ -60,7 +67,7 @@
                     </P>
                 </article>
 
-                <article class="article_n dis_flex_b"> 
+                <article class="article_n"> 
                     <img src="img/icono3.svg" class="icono_n icono3">
                     <h2>A TIEMPO</h2>
                     <P> Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
@@ -69,19 +76,21 @@
                         voluptatibus impedit adipisci aliquam eveniet laudantium!
                     </P>
                 </article>
+            </div>
         </section>
 
 <!----------------------------------- section_depart----------------------------------------------------------------------->
-    <header>
-        <h2 class="h1_depart">Casas y Departamentos en venta</h2>
-    </header>
+   
+        
+
 
     <main>
-        <section class="section_depart dis_flex_b section">
+        <section class="section_depart dis_grid ">
+            <h2 class="h1_depart">Casas y Departamentos en venta</h2>
             <article class="article_depart">
                 <img src="img/anuncio1.jpg">
 
-                <div class="contenedor_depart  dis_flex_b">
+                <div class="contenedor_depart">
 
                     <h2>Casa de lujo en el Lago</h2>
 
@@ -140,11 +149,12 @@
                     <a href="#" class="btn_d"> Ver propiedad</a>
                 </div>
             </article>
+            <div class="contenedor_btn_d section">
+                <a href="html/Anuncios.html" class="btn_verde btn">Ver Todas</a>
+           </div>
         </section>
     
-    <div class="contenedor_btn_d section">
-         <a href="html/Anuncios.html" class="btn_verde btn">Ver Todas</a>
-    </div>
+    
     </main>
 <!-------------------------------------------------------------------------------------------------------------->
     <section class="section_inter">
